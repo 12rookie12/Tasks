@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+::placeholder{
+    text-align: center;
+}
+.border{
+    margin: 200px;
+    /* padding: 55px; */
+    padding-left: 367px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 2px solid wheat;
+    background-color: white;
+}
+.center{
+    line-height: 50px;
+    /* margin-bottom: 10px; */
+}
