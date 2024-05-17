@@ -1,17 +1,128 @@
-.main{
+.main {
     border: 5px solid black;
     text-align: center;
     margin: 50px;
+    background-color: wheat;
+}
 
+.one {
+    border: 1px solid brown;
+    padding-bottom: 100px;
+    border-radius: 25px;
+    height: 220px;
+    width: 270px;
+    margin-bottom: 10px;
 }
-.one{
-    border: 0px solid brown ;
-}
-.img{
+
+.img {
     height: 150px;
     width: 250px;
+    margin-top: 10px;
+
 }
-.second{
-    display:flex ;
-    grid-template-columns: auto auto auto auto ;
+
+.second {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.third {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.Img {
+    height: 150px;
+    width: 175px;
+}
+
+.One {
+    margin-left: 15px;
+    border: 1px solid brown;
+    padding-bottom: 100px;
+    border-radius: 25px;
+    height: 220px;
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+.just {
+    border: 1px solid pink;
+    border-radius: 25px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: blue;
+    color: white;
+}
+
+.color {
+    color: rgb(51, 49, 48);
+    text-decoration: line-through;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.for {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:600px) {
+    .second {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .one {
+        border: 1px solid brown;
+        padding-bottom: 100px;
+        border-radius: 25px;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+     }
+    .One {
+        margin-left: 15px;
+        border: 1px solid brown;
+        padding-bottom: 100px;
+        border-radius: 25px;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+    } */
+    .third {
+            display: grid;
+            grid-template-columns: auto auto;
+    }
+    /* .img{
+        height: 70px;
+        width: 70px;
+    }
+    .for{
+        font-size: 14px;
+    }
+    
+    .size{
+        font-size: 14px;
+    }
+    .color{
+
+    }
+    #ok{
+        height: 5px;
+        width: 5px;
+    } */
+}
+
+@media only screen and (min-width:600px) {
+    .third {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .second {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
 }
