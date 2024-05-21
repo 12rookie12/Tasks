@@ -78,7 +78,7 @@
 }
 
 /* Desktop */
-@media only screen and(min-width:1080px) {
+@media only screen and (min-width:1080px) {
     .Product-list {
 
         grid-template-columns: auto auto auto auto;

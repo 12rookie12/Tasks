@@ -1,0 +1,18 @@
+body {
+    background-color: yellow;
+}.first{
+    height: 400px ;
+    border: 0px solid brown;
+    background-image: url(images/Designer.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.second{
+    /* height: 400px ; */
+    border: 1px solid brown;
+    background-image: url(images/cap.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+}
