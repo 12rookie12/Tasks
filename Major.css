@@ -16,7 +16,7 @@
 }
 
 .fo {
-    border: 1px solid wheat;
+    border: 0px solid wheat;
     opacity: 1;
     font-size: 25px;
 }
@@ -132,7 +132,7 @@
     position: relative;
     border: 0px solid brown;
     /* width: 1034px; */
-    height: 600px;
+    height: 1100px;
     width: 1890px;
     margin-top: 3px;
     background-color: yellow;
@@ -176,45 +176,60 @@
     height: 50px;
     width: 50px;
 }
-.main-fourth{
-    position: relative;
-    border: 1px solid brown;
-    height: 700px ;
-    width: 1890px;
-    bottom: 50px;
-    background-color: yellow;
-    
-}
-.sub2{
-    border: 1px solid brown;
-    grid-template-columns: auto auto auto;
-    display: grid;
-    height: 300px;
-}
-.First{
+   
+.grid1{
     height: 300px;
     width: 300px;
-    /* left: 400px; */
-    background: url(images/s1.jpeg);
+    background-image: url(images/s1.jpeg);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 385px;
+    left: -225px;
+}
+.grid2{
+    height: 300px;
+    width: 300px;
+    right: 1020px;    background-image: url(images/s2.jpeg);
+    position: absolute;
+    top: 385px;
+}
+.grid3{
+    height: 300px;
+    width: 300px;
+    right: 697px;
+    background-image: url(images/s3.jpeg);
     background-position: center;
     background-size: cover;
     position: absolute;
+    top: 385px;
 }
-.Second{
+.grid4{
     height: 300px;
     width: 300px;
-    /* left: 400px; */
-    background: url(images/s2.jpeg);
+    background-image: url(images/s1000rr.jpeg);
     background-position: center;
     background-size: cover;
     position: absolute;
+    top: 710px;
+    left: -225px;
 }
-.Third{
+.grid5{
     height: 300px;
     width: 300px;
-    /* left: 400px; */
-    background: url(images/s3.jpeg);
+    right: 1020px;    background-image: url(images/gen1.jpeg);
     background-position: center;
     background-size: cover;
     position: absolute;
+    top: 710px;
+}
+.grid6{
+    height: 300px;
+    width: 300px;
+    right: 697px;
+    background-image: url(images/h2r.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 710px;
 }
